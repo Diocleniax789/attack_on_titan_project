@@ -8,6 +8,7 @@ USES crt;
 CONST
      posX_us = 15;
      posX_pass = 10;
+     CANTIDAD_PREGUNTAS = 10;
 
 TYPE
     arreglo_usuario = array[1..15]of string;
@@ -311,7 +312,7 @@ VAR
    writeln();
    readln(numero);
    almacenar_respuesta(informacion_adicional,respuesta,numero);
-  UNTIL (i = 10);
+  UNTIL (i = CANTIDAD_PREGUNTAS);
   textcolor(green);
   clrscr;
   writeln('========================================================================');
