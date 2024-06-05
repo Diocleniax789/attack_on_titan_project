@@ -1,5 +1,6 @@
 // Created by Julio
 // Date: 04/06/2024
+// Description: this is a project test
 PROGRAM attack_on_titan_software;
 USES crt;
 
@@ -309,7 +310,7 @@ VAR
    writeln();
    readln(numero);
    almacenar_respuesta(informacion_adicional,respuesta,numero);
-  UNTIL (i = 2);
+  UNTIL (i = 10);
   textcolor(green);
   clrscr;
   writeln('========================================================================');
